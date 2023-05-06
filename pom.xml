@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>es.microservicios.v1lla</groupId>
 	<artifactId>naming-server-eureka</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>naming-server-eureka</name>
 	<description>Proyect to register all the microservices of the proyect</description>
 	<properties>
@@ -60,6 +60,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>${artifactId}</finalName>
 	</build>
 	<repositories>
 		<repository>
